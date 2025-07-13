@@ -1,0 +1,43 @@
+import { Theme } from '@/types';
+
+export const themes: Record<string, Theme> = {
+  light: {
+    background: '#FFFFFF',
+    surface: '#F8F9FA',
+    primary: '#4A90E2',
+    accent: '#50E3C2',
+    text: '#333333',
+    textSecondary: '#666666',
+    border: '#E1E5E9',
+    card: '#FFFFFF',
+    success: '#4CAF50',
+    warning: '#FF9800',
+    error: '#F44336',
+  },
+  dark: {
+    background: '#121212',
+    surface: '#1E1E1E',
+    primary: '#64B5F6',
+    accent: '#81C784',
+    text: '#EEEEEE',
+    textSecondary: '#BBBBBB',
+    border: '#333333',
+    card: '#1E1E1E',
+    success: '#4CAF50',
+    warning: '#FF9800',
+    error: '#F44336',
+  },
+  sepia: {
+    background: '#F5EAD6',
+    surface: '#F0E5D0',
+    primary: '#A67B5B',
+    accent: '#C89F68',
+    text: '#3E3E3E',
+    textSecondary: '#5D5D5D',
+    border: '#D4C4B0',
+    card: '#F5EAD6',
+    success: '#8BC34A',
+    warning: '#FF9800',
+    error: '#F44336',
+  },
+};
